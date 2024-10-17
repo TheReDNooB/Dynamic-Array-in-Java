@@ -17,6 +17,7 @@ public class DynamicArrayStructure {
         System.out.println("Empty: " + dynamicArray.isEmpty());
         
         dynamicArray.delete("Airpods");
+        System.out.println("Tablet Index: " + dynamicArray.search("Tablet"));
         System.out.println(dynamicArray);
         System.out.println("size :" + dynamicArray.size);
         System.out.println("capacity :" + dynamicArray.capacity);
