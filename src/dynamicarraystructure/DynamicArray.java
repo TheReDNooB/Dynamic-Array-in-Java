@@ -1,3 +1,4 @@
+package dynamicarraystructure;
 
 public class DynamicArray {
     int size;
