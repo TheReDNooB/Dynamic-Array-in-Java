@@ -15,6 +15,9 @@ public class DynamicArrayStructure {
         dynamicArray.insert(0, "SmarWatch");
         System.out.println(dynamicArray);
         System.out.println("Empty: " + dynamicArray.isEmpty());
+        
+        dynamicArray.delete("Airpods");
+        System.out.println(dynamicArray);
         System.out.println("size :" + dynamicArray.size);
         System.out.println("capacity :" + dynamicArray.capacity);
     }
