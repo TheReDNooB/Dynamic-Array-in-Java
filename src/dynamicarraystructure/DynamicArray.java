@@ -23,6 +23,14 @@ public class DynamicArray {
         size++;
     }
     public void insert(int index, Object data){
+        if(size >= capacity){
+            grow();
+        }
+        for(int i = size;i>index;i--){
+            array[i] = array[i-1];
+        }
+        array[index] = data;
+        size++;
     }
     public void delete(Object data){
     
