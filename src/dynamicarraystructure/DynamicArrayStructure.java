@@ -20,6 +20,9 @@ public class DynamicArrayStructure {
         System.out.println("Tablet Index: " + dynamicArray.search("Tablet"));
         dynamicArray.add("Clock");
         dynamicArray.add("Tesla");
+        dynamicArray.delete("SmarWatch");
+        dynamicArray.delete("Clock");
+        dynamicArray.delete("Tablet");
         System.out.println(dynamicArray);
         System.out.println("size :" + dynamicArray.size);
         System.out.println("capacity :" + dynamicArray.capacity);
