@@ -12,6 +12,7 @@ public class DynamicArrayStructure {
         dynamicArray.add("Airpods");
         
         System.out.println(dynamicArray);
+        System.out.println("Empty: " + dynamicArray.isEmpty());
     }
     
 }
