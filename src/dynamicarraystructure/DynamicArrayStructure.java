@@ -5,7 +5,7 @@ public class DynamicArrayStructure {
 
 
     public static void main(String[] args) {
-        DynamicArray dynamicArray = new DynamicArray();
+        DynamicArray dynamicArray = new DynamicArray(4);
         
         dynamicArray.add("Cellphone");
         dynamicArray.add("Tablet");
@@ -18,6 +18,8 @@ public class DynamicArrayStructure {
         
         dynamicArray.delete("Airpods");
         System.out.println("Tablet Index: " + dynamicArray.search("Tablet"));
+        dynamicArray.add("Clock");
+        dynamicArray.add("Tesla");
         System.out.println(dynamicArray);
         System.out.println("size :" + dynamicArray.size);
         System.out.println("capacity :" + dynamicArray.capacity);
