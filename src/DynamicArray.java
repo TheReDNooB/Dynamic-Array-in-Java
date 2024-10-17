@@ -13,4 +13,25 @@ public class DynamicArray {
         this.array = new Object[capacity];
     }
     
+    //Declaring the methods
+    public void add(Object data){
+    }
+    public void insert(int index, Object data){
+    }
+    public void delete(Object data){
+    
+    }
+    public int search(Object data){
+    return -1;
+    }
+    private void grow(){
+    }
+    private void shrink(){
+    }
+    public boolean isEmpty(){
+        return size==0;
+    }
+    public String toString(){
+        return null;
+    }
 }
